@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.div1{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+.div2{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+.div3{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+    text-shadow: 4px 0px 0px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgb(20, 90, 98);
+}
+li{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    width: 358px;
+    margin-left: -40px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration-line: underline;
+    background-color: chartreuse;
+   margin-top: -20px;
+   height: 100px;
+   margin-bottom: -20px;
+}
+
+ol > li{
+    background-color: rgb(191, 235, 125, 0.2);
+    list-style-position: inside;
+}
+
+.div2 > ul > li{
+    background-color: rgb(199, 48, 199, 0.2);
+    list-style-position: inside;
+    
+}
+
+.div3 > ul > li{
+    background-color: rgb(251, 165, 7, 0.2);
+    list-style-position: inside;
+}
+
+.div1>h2{
+    background-color: rgb(166, 235, 62);
+   
+}
+.div2>h2{
+    background-color: rgb(199, 48, 199);
+}
+.div3>h2{
+    background-color: rgb(251, 165, 7);
+}

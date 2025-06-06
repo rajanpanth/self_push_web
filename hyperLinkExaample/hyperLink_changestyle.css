@@ -1,0 +1,39 @@
+ *{
+        margin: 0;
+        padding: 0;
+        background-color: beige;
+    }
+    a{
+        color: black;
+        background-color: greenyellow;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 10px;
+           transition: all 0.5s ease-in-out;
+    }
+    /* default state: link (pseudo class link) */
+    a:link{
+        color: brown;
+        background-color: greenyellow;
+    }
+    /* visited state: visited */
+    a:visited{
+        color: blue;
+       font-size: 20px;
+        
+    }
+    /* hover state: hover */
+     a:hover{
+        color: red;
+        background-color: gold;
+        font-size: 30px;
+        scale: 1.2;
+        border-radius: 20px;
+     
+    }
+    /* active state: active */
+    a:active{
+        color: red;
+
+    }
+   

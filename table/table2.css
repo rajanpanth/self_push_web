@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+table,th,td{
+border: 4px solid black;
+border-collapse: collapse;
+
+}
+th,td{
+    padding: 20px 30px;
+    text-align: center;
+    
+}
+table{
+    width: 0%;
+    background-color: antiquewhite;
+}

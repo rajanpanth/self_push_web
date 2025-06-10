@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+
+table,th,td{
+border: 2px solid red;
+/* border-collapse: collapse; */
+border-radius: 10px;
+}
+th,td{
+    padding: 20px 30px;
+    text-align: center;
+    
+}
+table{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.my-name{
+    width: 60% ;
+}

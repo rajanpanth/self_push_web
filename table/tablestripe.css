@@ -35,6 +35,15 @@ table{
     background-color: #69c6c1;
     color: brown;
 }
+
+#animal-table th:nth-child(3),
+#animal-table th:nth-child(5),
+#animal-table td:nth-child(3),
+#animal-table td:nth-child(5){
+ font-style: italic;
+    color: darkblue;
+    font-size: 30px;
+}
 #animal-table tr:hover{
     background-color: #f0e68c;
     color: black;

@@ -5,7 +5,7 @@
 }
 
 table,th,td{
-border: 4px solid black;
+/* border: 4px solid black; */
 border-collapse: collapse;
 
 }
@@ -17,4 +17,26 @@ th,td{
 table{
     width: 0%;
     background-color: antiquewhite;
+}
+#animal-table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+/* descendent selector: select all the tr tag inside the animal-table id */
+
+#animal-table tr{
+
+    height: 40px;
+    border-bottom: 3px solid gray;
+}
+#animal-table tr:nth-child(odd){
+    background-color: #69c6c1;
+    color: brown;
+}
+#animal-table tr:hover{
+    background-color: #f0e68c;
+    color: black;
+    cursor: grabbing;
 }

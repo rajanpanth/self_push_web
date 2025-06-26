@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        *{
+            
+        }
+        body {
+            background-color: #d4f3e8;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Regrister Form</h1>
+    <!-- main form element -->
+    <form action="" onsubmit="">
+        <label for="user-name">Username</label>
+        <input id="user-name" type="text" placeholder="Enter your username" name="username" required
+            value="Ram Bahadur">
+        <br><br>
+        <label for="user-name">Password</label>
+        <input id="user-name" type="password" placeholder="Enter your Password" name="username" required minlength="8">
+        <br>
+        <br>
+
+        <input type="submit" value="Register"
+            style="background-color: chartreuse; border: none; height: 30px; width: 100px; border-radius: 20px;">
+    </form>
+
+    <br><br>
+    <br>
+
+
+
+
+    <h1>Login Here</h1>
+    <!-- main form element -->
+    <form action="../pages/dashboard.html" target="_blank" onsubmit="alert('Form submitted!');">
+        <label for="user-email">Email</label>
+        <input id="user-email" type="email" placeholder="Enter your email" name="Email" required>
+        <br><br>
+        <label for="user-pass">Password</label>
+        <input id="user-pass" type="password" placeholder="Enter your Password" name="password" required minlength="8">
+        <br>
+        <br>
+        <label for="dob">Date of Birth</label>
+        <input id="dob" type="date" name="dob" required>
+        <br>
+        <br>
+        <b>Select Your Gender</b>
+        <div>
+            <label>
+                <input type="radio" name="Gender" value="male">
+                Male</label>
+                 <label>
+                <input type="radio" name="Gender" value="female">
+                Female</label>
+                 <label>
+                <input type="radio" name="Gender" value="other">
+                Other</label>
+        </div>
+       <br>
+        <br>
+        <!-- HTML dropdown -->
+         <label> Your Favorite Sport</lable>
+         <br>
+        <select name="fav-sport" >
+            <option value="football">Football</option>
+            <option value="cricket">Cricket</option>
+            <option value="">Basketball</option>
+            <option>Tennis</option>
+            <option>Badminton</option>
+            <option selected="Chess">Chess</option>
+        </select>
+         <br>
+        <br>
+        <label>Enter some comments</label>
+        <br>
+        <textarea name="comments" cols="30" rows="5" placeholder="Enter Your comments"></textarea>
+          <br>
+        <br>
+        <label>Pick Your Profile Image
+            <br>
+            <input type="file" name="profile-image" accept=".jpg, .jpeg, .png, .gif" multiple>
+        </label>
+         <br>
+        <br>
+        <label for="term">
+            <input type="checkbox" id="term" name="term" required>
+            I agree to the terms and conditions</label>
+        <br>
+        <br>
+        <input type="submit" value="Login"
+            style="background-color: rgb(255, 217, 0); border: none; height: 30px; width: 100px; border-radius: 20px;">
+    </form>
+</body>
+
+</html>

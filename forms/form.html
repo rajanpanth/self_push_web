@@ -43,7 +43,7 @@
 
     <h1>Login Here</h1>
     <!-- main form element -->
-    <form action="../pages/dashboard.html" target="_blank" onsubmit="alert('Form submitted!');">
+    <form autocomplete="on" action="../pages/dashboard.html" target="_blank" onsubmit="alert('Form submitted!');" novalidate method="post" enctype="multipart/form-data">
         <label for="user-email">Email</label>
         <input id="user-email" type="email" placeholder="Enter your email" name="Email" required>
         <br><br>
@@ -93,6 +93,19 @@
         </label>
          <br>
         <br>
+        <!-- dropdown using input field -->
+         <label for="fav-fruits">Select Your fav-fruits</label>
+          <br>
+         <input name="fruits" list="fruits" >
+         <datalist id="fruits">
+            <option value="Apple">
+            <option value="Banana">
+            <option value="Mango">
+            <option value="Orange">
+            <option value="Grapes">
+            </datalist>
+          <br>
+        <br>
         <label for="term">
             <input type="checkbox" id="term" name="term" required>
             I agree to the terms and conditions</label>
@@ -100,6 +113,20 @@
         <br>
         <input type="submit" value="Login"
             style="background-color: rgb(255, 217, 0); border: none; height: 30px; width: 100px; border-radius: 20px;">
+
+            <!-- output tag demonstration -->
+             <h4>Output Tag</h4>
+    </form>
+
+
+
+    <form oninput="x.value = parseInt(a.value) + parseInt(b.value)">
+        
+<input id="a" name="a" value="10" type="range">
++
+<input id="b" name="b" value="40" type="number">
+=
+<output name="x" for="a b"></output>
     </form>
 </body>
 

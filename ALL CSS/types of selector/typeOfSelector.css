@@ -1,0 +1,10 @@
+/* child selector(>) */
+#parent > p{
+    background-color: lightblue;
+}
+/* descendent selector (space) */
+
+#parent p{
+    color: green;
+    font-size: 20px;
+}

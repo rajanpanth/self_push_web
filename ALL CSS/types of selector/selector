@@ -1,0 +1,17 @@
+css selector
+ 1. id selector
+ 2. tag sel;ector
+ 3. class 
+ 4. descendent selector
+ -> jus outside the selected element
+
+ 5. child
+ -> selects only direct child
+
+ 6. global or universal
+ -> selects all childs 
+
+ 7. attribute
+ -> 
+
+ 8. grouping
